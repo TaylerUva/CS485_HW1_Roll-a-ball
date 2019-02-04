@@ -12,6 +12,7 @@ Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s
 - Reduced cube numbers
 - Added restart buttons
 - Added game over and out of bounds
+- Added warp gates to next level
 
 ---
 
@@ -28,10 +29,11 @@ Some jump code used from instructor provided SimpleProject2:
 ## Furture improvements to implement
 
 - [x] Add jump
-- [ ] Add goal
-- [ ] Add levels
-- [ ] Add time for score
+- [x] Add goal
+- [ ] Add more levels
+- [ ] Add time to score
 - [ ] Add menu
+- [ ] Make score cross scene
 
 ---
 

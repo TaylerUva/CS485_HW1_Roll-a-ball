@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed = 10;
 	public float jumpHeight = 1;
+	public float lowerPlayerBounds = -2;
 
 	public Text countText;
-	public Text winText;
 	public Text loseText;
 
 	private Rigidbody rb;
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();
 		score = 0;
 		SetCountText();
-		winText.gameObject.SetActive(false);
+
 		loseText.gameObject.SetActive(false);
 	}
 
@@ -51,9 +51,6 @@ public class PlayerController : MonoBehaviour {
 
 	void SetCountText() {
 		countText.text = "Score: " + score.ToString();
-		if (score >= 8) {
-			winText.gameObject.SetActive(true);
-		}
 	}
 
 	void OnCollisionEnter(Collision other) {
@@ -63,7 +60,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void checkOutOfBounds() {
-		if (gameObject.transform.position.y < -5) {
+		if (gameObject.transform.position.y < lowerPlayerBounds) {
 			loseText.gameObject.SetActive(true);
 		}
 	}
