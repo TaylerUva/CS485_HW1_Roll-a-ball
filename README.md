@@ -33,7 +33,9 @@ Some jump code used from instructor provided SimpleProject2:
 - [x] Add goal
 - [ ] Add more levels
 - [ ] Add time to score
+- [ ] Add bonus for getting all pickups
 - [ ] Add menu
+- [ ] Add deadly objects like red pickups and red walls
 - [X] Make score cross scene
 
 ---
