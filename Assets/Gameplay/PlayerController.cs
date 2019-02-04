@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start() {
 		rb = GetComponent<Rigidbody>();
-		score = 0;
+		score = PlayerPrefs.GetInt("score");
 		SetCountText();
 
 		loseText.gameObject.SetActive(false);
@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour {
 		if (other.gameObject.CompareTag("Pick Up")) {
 			other.gameObject.SetActive(false);
 			score = score + 1;
+			PlayerPrefs.SetInt("score", score);
 			SetCountText();
 		}
 	}
@@ -61,6 +62,7 @@ public class PlayerController : MonoBehaviour {
 
 	void checkOutOfBounds() {
 		if (gameObject.transform.position.y < lowerPlayerBounds) {
+			loseText.text = "GAME OVER!\nScore: " + PlayerPrefs.GetInt("score");
 			loseText.gameObject.SetActive(true);
 		}
 	}

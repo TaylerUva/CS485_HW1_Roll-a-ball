@@ -9,10 +9,10 @@ Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s
 
 - Object colors
 - File structure
-- Reduced cube numbers
 - Added restart buttons
 - Added game over and out of bounds
 - Added warp gates to next level
+- Score saves across scene and is reset on restart
 
 ---
 
@@ -33,7 +33,7 @@ Some jump code used from instructor provided SimpleProject2:
 - [ ] Add more levels
 - [ ] Add time to score
 - [ ] Add menu
-- [ ] Make score cross scene
+- [X] Make score cross scene
 
 ---
 

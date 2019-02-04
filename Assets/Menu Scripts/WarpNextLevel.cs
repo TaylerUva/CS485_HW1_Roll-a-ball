@@ -18,8 +18,10 @@ public class WarpNextLevel : MonoBehaviour {
 			if (nextSceneIndex != 0) {
 				SceneManager.LoadScene(nextSceneIndex);
 			} else {
+				winText.text = "You Win!\nScore: " + PlayerPrefs.GetInt("score");
 				winText.gameObject.SetActive(true);
 				other.gameObject.SetActive(false);
+				PlayerPrefs.DeleteKey("score");
 			}
 		}
 	}
