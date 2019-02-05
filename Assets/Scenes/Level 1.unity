@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 12431032}
   - component: {fileID: 12431035}
   m_Layer: 5
-  m_Name: Restart
+  m_Name: Main Menu Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,8 +149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110, y: -40}
-  m_SizeDelta: {x: 200, y: 60}
+  m_AnchoredPosition: {x: -160, y: -40}
+  m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12431032
 MonoBehaviour:
@@ -644,6 +644,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lose Text
       objectReference: {fileID: 0}
+    - target: {fileID: 6447862960492566370, guid: 9bb7f3505d3884605a72bd727028fe97,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6447862960492566369, guid: 9bb7f3505d3884605a72bd727028fe97,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -868,7 +873,7 @@ PrefabInstance:
     - target: {fileID: 5064384353551483401, guid: 8d474583b6c6247bab9d2e29dea0e76b,
         type: 3}
       propertyPath: nextSceneIndex
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d474583b6c6247bab9d2e29dea0e76b, type: 3}
@@ -889,6 +894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Win Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447862960492566370, guid: 9bb7f3505d3884605a72bd727028fe97,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6447862960492566369, guid: 9bb7f3505d3884605a72bd727028fe97,
         type: 3}
@@ -1878,7 +1888,7 @@ GameObject:
   - component: {fileID: 1877339460}
   - component: {fileID: 1877339459}
   m_Layer: 5
-  m_Name: Restart Button
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1901,7 +1911,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 60}
+  m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877339459
 MonoBehaviour:
@@ -1936,9 +1946,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Restart
-
-'
+  m_Text: Main Menu
 --- !u!222 &1877339460
 CanvasRenderer:
   m_ObjectHideFlags: 0

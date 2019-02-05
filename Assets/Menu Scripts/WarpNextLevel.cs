@@ -15,7 +15,7 @@ public class WarpNextLevel : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag("Player")) {
-			if (nextSceneIndex != 0) {
+			if (nextSceneIndex >= 1) {
 				SceneManager.LoadScene(nextSceneIndex);
 			} else {
 				winText.text = "You Win!\nScore: " + PlayerPrefs.GetInt("score");
