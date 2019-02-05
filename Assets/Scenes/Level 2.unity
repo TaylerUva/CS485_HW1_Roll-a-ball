@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.446577, g: 0.49641228, b: 0.57481825, a: 1}
+  m_IndirectSpecularColor: {r: 0.43749008, g: 0.4853111, b: 0.56558543, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -489,13 +489,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0.76604444, y: 0, z: 0, w: 0.64278764}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 100, y: 0, z: 0}
 --- !u!1001 &241761986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2850,11 +2850,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1802518438264321969, guid: 8d474583b6c6247bab9d2e29dea0e76b,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5064384353551483401, guid: 8d474583b6c6247bab9d2e29dea0e76b,
         type: 3}
       propertyPath: winText
@@ -2864,6 +2859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: nextSceneIndex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1802518438264321969, guid: 8d474583b6c6247bab9d2e29dea0e76b,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d474583b6c6247bab9d2e29dea0e76b, type: 3}
