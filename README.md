@@ -4,7 +4,7 @@ Create by Tayler Uva
 Project [Link](https://github.com/TaylerUva/CS485_HW1_Roll-a-ball) [1]  
 [Click here to play in a browser](https://tayler.tech/CS485_HW1_Roll-a-ball/) [2]
 
-Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s/roll-ball-tutorial)
+Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s/roll-ball-tutorial) [3]
 
 ## Changes from tutorial
 
@@ -21,10 +21,10 @@ Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s
 ## External References
 
 LoadSceneOnClick.cs, QuitOnClick.cs, and OpenLink.cs used from previous project:  
-[SlugShuttle](https://github.com/TaylerUva/SlugShuttle) [3]
+[SlugShuttle](https://github.com/TaylerUva/SlugShuttle) [4]
 
 Some jump code used from instructor provided SimpleProject2:  
-[SimpleProject2 RigiController](hhttps://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs) [4]
+[SimpleProject2 RigiController](hhttps://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs) [5]
 
 ---
 
@@ -45,5 +45,6 @@ Some jump code used from instructor provided SimpleProject2:
 
 1. https://github.com/TaylerUva/CS485_HW1_Roll-a-ball
 2. https://tayler.tech/CS485_HW1_Roll-a-ball/
-3. https://github.com/TaylerUva/SlugShuttle
-4. https://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs
+3. https://unity3d.com/learn/tutorials/s/roll-ball-tutorial
+4. https://github.com/TaylerUva/SlugShuttle
+5. https://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs
