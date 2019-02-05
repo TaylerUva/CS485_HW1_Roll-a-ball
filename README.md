@@ -10,13 +10,16 @@ Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s
 
 - Object colors
 - File structure
+- Score saves across scene and is reset on restart
 - Added restart buttons
 - Added game over and out of bounds
 - Added warp gates to next level
-- Score saves across scene and is reset on restart
 - Added main menu
 - Added highscores
-- Added obsticals
+- Added deadly obstacles
+- Added jump
+- Added level end goal
+- Added more levels
 
 ---
 
@@ -32,14 +35,8 @@ Some jump code used from instructor provided SimpleProject2:
 
 ## Furture improvements to implement
 
-- [x] Add jump
-- [x] Add goal
-- [x] Add more levels
 - [ ] Add time to score
 - [ ] Add bonus for getting all pickups
-- [x] Add main menu
-- [x] Add deadly objects like red pickups and red walls
-- [X] Make score cross scene
 
 ---
 
