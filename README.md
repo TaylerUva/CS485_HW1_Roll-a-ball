@@ -15,6 +15,8 @@ Based on the Unity Tutorial: [Roll-a-ball](https://unity3d.com/learn/tutorials/s
 - Added warp gates to next level
 - Score saves across scene and is reset on restart
 - Added main menu
+- Added highscores
+- Added obsticals
 
 ---
 
@@ -24,7 +26,7 @@ LoadSceneOnClick.cs, QuitOnClick.cs, and OpenLink.cs used from previous project:
 [SlugShuttle](https://github.com/TaylerUva/SlugShuttle) [4]
 
 Some jump code used from instructor provided SimpleProject2:  
-[SimpleProject2 RigiController](hhttps://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs) [5]
+[SimpleProject2 RigiController](https://github.com/xye-csusm/SimpleProject2/blob/master/Assets/RigiController.cs) [5]
 
 ---
 
@@ -32,11 +34,11 @@ Some jump code used from instructor provided SimpleProject2:
 
 - [x] Add jump
 - [x] Add goal
-- [ ] Add more levels
+- [x] Add more levels
 - [ ] Add time to score
 - [ ] Add bonus for getting all pickups
 - [x] Add main menu
-- [ ] Add deadly objects like red pickups and red walls
+- [x] Add deadly objects like red pickups and red walls
 - [X] Make score cross scene
 
 ---

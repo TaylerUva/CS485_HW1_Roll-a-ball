@@ -42,6 +42,7 @@
 		"**/*.meta": true,
 		"**/*.prefab": true,
 		"**/*.unity": true,
+		"**/*.app": true,
 		"build/": true,
 		"Build/": true,
 		"Library/": true,

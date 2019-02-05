@@ -18,11 +18,21 @@ public class WarpNextLevel : MonoBehaviour {
 			if (nextSceneIndex >= 1) {
 				SceneManager.LoadScene(nextSceneIndex);
 			} else {
-				winText.text = "You Win!\nScore: " + PlayerPrefs.GetInt("score");
-				winText.gameObject.SetActive(true);
+				gameComplete();
 				other.gameObject.SetActive(false);
-				PlayerPrefs.DeleteKey("score");
 			}
 		}
+	}
+
+	private void gameComplete() {
+
+		int score = PlayerPrefs.GetInt("score");
+		int highscore = PlayerPrefs.GetInt("highscore");
+		if (score > highscore) {
+			PlayerPrefs.SetInt("highscore", score);
+		}
+		winText.text = "YOU WIN!\nScore:\n" + score + "\nHigh Score:\n" + highscore;
+		winText.gameObject.SetActive(true);
+		PlayerPrefs.DeleteKey("score");
 	}
 }
