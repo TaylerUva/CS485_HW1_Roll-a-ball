@@ -136,5 +136,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28f4682be3944ba5a3e68cad993f902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winText: {fileID: 6447862960492566368, guid: 9bb7f3505d3884605a72bd727028fe97, type: 3}
+  winText: {fileID: 0}
   nextSceneIndex: 0
