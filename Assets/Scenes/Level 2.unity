@@ -863,6 +863,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6447862960378562934, guid: 9bb7f3505d3884605a72bd727028fe97,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb7f3505d3884605a72bd727028fe97, type: 3}
 --- !u!224 &458506932 stripped
@@ -2741,6 +2746,11 @@ PrefabInstance:
       value: 'You Lose!
 
         Score: 0'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447862960378562934, guid: 9bb7f3505d3884605a72bd727028fe97,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb7f3505d3884605a72bd727028fe97, type: 3}
