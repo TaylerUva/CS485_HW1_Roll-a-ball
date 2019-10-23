@@ -1,4 +1,6 @@
-# HW Assignment 1: Roll-a-ball
+# Roll-a-ball Game
+
+Originally: CS485 HW Assignment 1: Roll-a-ball
 
 Created by Tayler Uva  
 Project Link: [https://github.com/TaylerUva/CS485_HW1_Roll-a-ball](https://github.com/TaylerUva/CS485_HW1_Roll-a-ball)  
